@@ -12,6 +12,7 @@ class Generator(nn.Module):
             nn.Linear(hidden_size, output_size),
             nn.Tanh()  # Using Tanh activation for normalized output in the range [-1, 1]
         )
+        
 
     def forward(self, noise):
         # Forward pass logic

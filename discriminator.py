@@ -12,6 +12,7 @@ class Discriminator(nn.Module):
             nn.Linear(hidden_size, output_size),
             nn.Sigmoid()  # Using Sigmoid activation for binary classification
         )
+        
 
     def forward(self, data):
         # Forward pass logic

@@ -1,4 +1,4 @@
-# Generative AI Handwriting Digits Project
+# Generative AI Handwriting Digits
 
 ## Overview
 This repository contains the code for a Conditional Generative Adversarial Network (GAN) designed to generate diverse and realistic handwritten digits conditioned on specific attributes such as style and thickness.
@@ -15,7 +15,7 @@ This repository contains the code for a Conditional Generative Adversarial Netwo
 
 ### Prerequisites
 - Python 3.x
-- PyTorch
+- PyTorch (with CUDA support)
 
 ### Installation
 1. Clone the repository: `git clone https://github.com/adarshsaji/Generative-AI-Handwriting-Digits.git`
